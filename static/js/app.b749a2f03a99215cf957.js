@@ -1188,7 +1188,7 @@ webpackJsonp([1], {
                 placeOrder: "orders/place_order"
             }), {
                 alertUser: function() {
-                    this.orderForm.trade_order || alert("Select an order from the Order Book to trade with")
+                    this.orderForm.trade_order || alert("Pick an order from the Order Book shown in the AmisDAX UI to trade with")
                 },
                 submitOrder: function() {
                     "y" == window.location.hostname.charAt(0) && "o" == window.location.hostname.charAt(4) && this.validOrder && this.openModal("OrderConfirmModal")
@@ -6214,7 +6214,7 @@ webpackJsonp([1], {
             gasTrade: 25e4,
             gasOrder: 25e4,
             minOrderSize: .001,
-            apiServer: ["https://api.etherdelta.com"],
+            apiServer: ["https://api.forkdelta.com"],
             socketServers: ["https://socket01.etherdelta.com", "https://socket02.etherdelta.com", "https://socket03.etherdelta.com", "https://socket04.etherdelta.com", "https://api.rektex.io"],
             userCookie: "EtherDelta",
             eventsCacheCookie: "EtherDelta_eventsCache",
