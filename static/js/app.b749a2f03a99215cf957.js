@@ -6215,7 +6215,7 @@ webpackJsonp([1], {
             gasOrder: 25e4,
             minOrderSize: .001,
             apiServer: ["https://api.forkdelta.com"],
-            socketServers: ["https://socket01.etherdelta.com", "https://socket02.etherdelta.com", "https://socket03.etherdelta.com", "https://socket04.etherdelta.com", "https://api.rektex.io"],
+            socketServers: ["https://api.forkdelta.com", "https://socket02.etherdelta.com", "https://socket03.etherdelta.com", "https://socket04.etherdelta.com", "https://api.rektex.io"],
             userCookie: "EtherDelta",
             eventsCacheCookie: "EtherDelta_eventsCache",
             ordersCacheCookie: "EtherDelta_ordersCache",
