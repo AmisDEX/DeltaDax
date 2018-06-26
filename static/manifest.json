@@ -1,6 +1,6 @@
 {
-  "name": "DeltaDax",
-  "short_name": "DeltaDax",
+  "name": "AmisDax",
+  "short_name": "AmisDax",
   "display": "standalone",
   "background_color": "white",
   "description": "GDAX UI for EtherDelta",
