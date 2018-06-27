@@ -2690,7 +2690,7 @@ webpackJsonp([1], {
           , r = this;
         a.a = {
             fetch_currency_history_by_minute: function(e) {
-                return "MIOTA" == e && (e = "IOT"),
+                return "AMIS" == e && (e = "AMIS"),
                 new t.a(function(a, d) {
                     n.a.http.get("https://min-api.cryptocompare.com/data/histominute?fsym=" + e + "&tsym=USD&limit=1440&aggregate=60&e=CCCAGG").then(function(e) {
                         a(e.body)
@@ -3626,7 +3626,7 @@ webpackJsonp([1], {
             current_token: {
                 addr: "0x949bed886c739f1a3273629b3320db0c5024c719",
                 name: "AMIS",
-                decimals: 18
+                decimals: 9
             },
             token_filter: "AMIS"
         }, f = {
@@ -6215,7 +6215,7 @@ webpackJsonp([1], {
             gasOrder: 25e4,
             minOrderSize: .001,
             apiServer: ["https://api.forkdelta.com"],
-            socketServers: ["https://api.forkdelta.com", "https://socket02.etherdelta.com", "https://socket03.etherdelta.com", "https://socket04.etherdelta.com", "https://api.rektex.io"],
+            socketServers: ["https://api.etherdelta.com", "https://socket02.etherdelta.com", "https://socket03.etherdelta.com", "https://socket04.etherdelta.com", "https://api.rektex.io"],
             userCookie: "EtherDelta",
             eventsCacheCookie: "EtherDelta_eventsCache",
             ordersCacheCookie: "EtherDelta_ordersCache",
