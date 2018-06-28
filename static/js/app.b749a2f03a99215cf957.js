@@ -791,7 +791,7 @@ webpackJsonp([1], {
                 component: n.a.HomePage
             }, {
                 path: "/exchange",
-                redirect: "/exchange/AMIS"
+                redirect: "/exchange/PPT"
             }, {
                 path: "/exchange/:token",
                 name: "exchange",
