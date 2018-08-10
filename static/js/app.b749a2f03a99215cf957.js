@@ -5517,7 +5517,7 @@ webpackJsonp([1], {
                   , d = e._self._c || a;
                 return d("div", {
                     staticClass: "box"
-                }, [d("p", [e._v("AmisDax is a new UI for EtherDelta, inspired by GDAX. All orders use EtherDelta's decenteralized contract and API")]), d("p", [e._v("An attempt to Provide the Ethereum community with a more intuitive way to interact with the EtherDelta exchange")]), d("p", [e._v("Currently only MetaMask compatible")]), d("p", [e._v("Software is provided as is, WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY")]), d("p", [e._v("or FITNESS FOR A PARTICULAR PURPOSE. Use at your own risk.")]), d("p", [e._v("Report an Issue or ask a Question - "), d("a", {
+                }, [d("p", [e._v("AmisDax is a new UI for EtherDelta, inspired by GDAX. All orders use EtherDelta's decentralized contract and API")]), d("p", [e._v("An attempt to Provide the Ethereum community with a more intuitive way to interact with the EtherDelta exchange")]), d("p", [e._v("Currently only MetaMask compatible")]), d("p", [e._v("Software is provided as is, WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY")]), d("p", [e._v("or FITNESS FOR A PARTICULAR PURPOSE. Use at your own risk.")]), d("p", [e._v("Report an Issue or ask a Question - "), d("a", {
                     attrs: {
                         href: "https://github.com/AmisDEX/amisdax/issues",
                         target: "_blank"
@@ -6214,7 +6214,7 @@ webpackJsonp([1], {
             gasTrade: 25e4,
             gasOrder: 25e4,
             minOrderSize: .001,
-            apiServer: ["https://api.etherdelta.com"],
+            apiServer: ["https://cache.etherdelta.com"],
             socketServers: ["https://socket01.etherdelta.com", "https://socket02.etherdelta.com", "https://socket03.etherdelta.com", "https://socket04.etherdelta.com", "https://api.rektex.io"],
             userCookie: "EtherDelta",
             eventsCacheCookie: "EtherDelta_eventsCache",
