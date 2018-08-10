@@ -3624,11 +3624,11 @@ webpackJsonp([1], {
         d(871)), s = d.n(r), i = {
             tokens: s.a,
             current_token: {
-                addr: "0x949bed886c739f1a3273629b3320db0c5024c719",
-                name: "AMIS",
+                addr: "0x957c30ab0426e0c93cd8241e2c60392d08c6ac8e",
+                name: "MOD",
                 decimals: 9
             },
-            token_filter: "AMIS"
+            token_filter: "MOD"
         }, f = {
             tokens: function(e) {
                 return e.tokens
@@ -5504,7 +5504,7 @@ webpackJsonp([1], {
                         to: {
                             name: "exchange",
                             params: {
-                                token: "AMIS"
+                                token: "MOV"
                             }
                         },
                         tag: "span"
@@ -6214,7 +6214,7 @@ webpackJsonp([1], {
             gasTrade: 25e4,
             gasOrder: 25e4,
             minOrderSize: .001,
-            apiServer: ["https://cache.etherdelta.com"],
+            apiServer: ["https://api.etherdelta.com"],
             socketServers: ["https://socket01.etherdelta.com", "https://socket02.etherdelta.com", "https://socket03.etherdelta.com", "https://socket04.etherdelta.com", "https://api.rektex.io"],
             userCookie: "EtherDelta",
             eventsCacheCookie: "EtherDelta_eventsCache",
