@@ -5504,7 +5504,7 @@ webpackJsonp([1], {
                         to: {
                             name: "exchange",
                             params: {
-                                token: "MOV"
+                                token: "MOD"
                             }
                         },
                         tag: "span"
