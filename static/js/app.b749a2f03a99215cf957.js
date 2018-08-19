@@ -6216,7 +6216,7 @@ webpackJsonp([1], {
             minOrderSize: .001,
             ordersOnchain: true,
             apiServer: ["https://api.etherdelta.com"],
-            socketServers: ["https://api.etherdelta.com", "https://socket02.etherdelta.com", "https://socket03.etherdelta.com", "https://socket04.etherdelta.com", "https://api.rektex.io"],
+            socketServers: ["https://socket03.etherdelta.com", "https://socket02.etherdelta.com", "https://socket03.etherdelta.com", "https://socket04.etherdelta.com", "https://api.rektex.io"],
             userCookie: "EtherDelta",
             eventsCacheCookie: "EtherDelta_eventsCache",
             ordersCacheCookie: "EtherDelta_ordersCache",
