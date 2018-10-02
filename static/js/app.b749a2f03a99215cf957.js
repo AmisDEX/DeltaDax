@@ -4817,7 +4817,7 @@ webpackJsonp([1], {
                 }, [e._v("Successfully created transaction!")]), d("a", {
                     staticClass: "txn",
                     attrs: {
-                        href: "https://www.etherscan.io/tx/" + e.txn,
+                        href: "https://etherscan.io/tx/" + e.txn,
                         target: "_blank"
                     }
                 }, [e._v(e._s(e.txn))])])]) : d("div", {
@@ -5042,7 +5042,7 @@ webpackJsonp([1], {
                 }, [e._v("Successfully created transaction!")]), d("a", {
                     staticClass: "txn",
                     attrs: {
-                        href: "https://www.etherscan.io/tx/" + e.trade_message,
+                        href: "https://etherscan.io/tx/" + e.trade_message,
                         target: "_blank"
                     }
                 }, [e._v(e._s(e.trade_message))])]) : d("div", {
@@ -5557,7 +5557,7 @@ webpackJsonp([1], {
                 }, [e._v("Successfully created transaction!")]), d("a", {
                     staticClass: "txn",
                     attrs: {
-                        href: "https://www.etherscan.io/tx/" + e.txn,
+                        href: "https://etherscan.io/tx/" + e.txn,
                         target: "_blank"
                     }
                 }, [e._v(e._s(e.txn))])])]) : d("div", {
@@ -6215,7 +6215,7 @@ webpackJsonp([1], {
             gasOrder: 25e4,
             minOrderSize: .001,
             ordersOnchain: false,
-            socketServers: ["https://api.forkdelta.com", "https://socket02.etherdelta.com", "https://socket04.etherdelta.com"],
+            socketServers: ["https://socket01.etherdelta.com", "https://socket02.etherdelta.com", "https://socket03.etherdelta.com", "https://socket04.etherdelta.com"],
             userCookie: "EtherDelta",
             eventsCacheCookie: "EtherDelta_eventsCache",
             ordersCacheCookie: "EtherDelta_ordersCache",
