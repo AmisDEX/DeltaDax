@@ -3624,11 +3624,11 @@ webpackJsonp([1], {
         d(871)), s = d.n(r), i = {
             tokens: s.a,
             current_token: {
-                addr: "0x949bEd886c739f1A3273629b3320db0C5024c719",
-                name: "AMIS",
+                addr: "0xe0b7927c4af23765cb51314a0e0521a9645f0e2a",
+                name: "DGD",
                 decimals: 9
             },
-            token_filter: "AMIS"
+            token_filter: "DGD"
         }, f = {
             tokens: function(e) {
                 return e.tokens
@@ -5504,7 +5504,7 @@ webpackJsonp([1], {
                         to: {
                             name: "exchange",
                             params: {
-                                token: "AMIS"
+                                token: "DGD"
                             }
                         },
                         tag: "span"
