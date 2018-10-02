@@ -3624,11 +3624,11 @@ webpackJsonp([1], {
         d(871)), s = d.n(r), i = {
             tokens: s.a,
             current_token: {
-                addr: "0x957c30ab0426e0c93cd8241e2c60392d08c6ac8e",
-                name: "MOD",
+                addr: "0x949bEd886c739f1A3273629b3320db0C5024c719",
+                name: "AMIS",
                 decimals: 9
             },
-            token_filter: "MOD"
+            token_filter: "AMIS"
         }, f = {
             tokens: function(e) {
                 return e.tokens
@@ -5504,7 +5504,7 @@ webpackJsonp([1], {
                         to: {
                             name: "exchange",
                             params: {
-                                token: "MOD"
+                                token: "AMIS"
                             }
                         },
                         tag: "span"
@@ -5769,7 +5769,7 @@ webpackJsonp([1], {
                   , a = e.$createElement;
                 return (e._self._c || a)("div", {
                     attrs: {
-                        id: "protfolio-page"
+                        id: "PortfolioPage"
                     }
                 })
             },
@@ -6214,7 +6214,7 @@ webpackJsonp([1], {
             gasTrade: 25e4,
             gasOrder: 25e4,
             minOrderSize: .001,
-            ordersOnchain: true,
+            ordersOnchain: false,
             apiServer: ["https://api.etherdelta.com"],
             socketServers: ["https://socket03.etherdelta.com", "https://socket02.etherdelta.com", "https://socket03.etherdelta.com", "https://socket04.etherdelta.com", "https://api.rektex.io"],
             userCookie: "EtherDelta",
