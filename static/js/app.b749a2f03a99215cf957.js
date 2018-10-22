@@ -6213,9 +6213,9 @@ webpackJsonp([1], {
             gasWithdraw: 25e4,
             gasTrade: 25e4,
             gasOrder: 25e4,
-            minOrderSize: .001,
+            minOrderSize: .0001,
             ordersOnchain: false,
-            socketServers: ["https://socket01.etherdelta.com", "https://socket02.etherdelta.com", "https://socket03.etherdelta.com", "https://socket04.etherdelta.com"],
+            socketServers: ["https://socket.etherdelta.com"],
             userCookie: "EtherDelta",
             eventsCacheCookie: "EtherDelta_eventsCache",
             ordersCacheCookie: "EtherDelta_ordersCache",
@@ -8351,7 +8351,7 @@ webpackJsonp([1], {
                 decimals: 0
             }],
             defaultPair: {
-                token: "PPT",
+                token: "AMIS",
                 base: "ETH"
             }
         }
